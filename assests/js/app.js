@@ -40,7 +40,6 @@ todocontainer.innerHTML=result
 
 function onsubmithand(ele){
   ele.preventDefault();
-  // cl('submited')
   let newtodo ={
     todoItem : todoitem.value,
     todoId : Date.now().toString()
@@ -58,7 +57,7 @@ function onsubmithand(ele){
   todocontainer.append(li)          
   todoform.reset()
 
-  // cl(newtodo)
+ 
 }
 
 todolist(todoArr);
